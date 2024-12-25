@@ -4,33 +4,55 @@ public class Array {
 	
 public static void main(String[] args) {
 		
-		String [] kids = new String [2];
-		kids[0] = "Maahir";
-		kids[1] = "Hamdan";
 		
-     String [] [] firstcousins = new String [3] [2] ;
+     String [][] [] prod = new String [2][4] [5] ;
 		
-        firstcousins[0][0] = "Fazeela";
-        firstcousins[0][1] = "Zubair";
-        firstcousins[1][0] = "Ashfaq";
-        firstcousins[1][1] = "Fazil";
-        firstcousins[2][0] = "Mukeen";
-        firstcousins[2][1] = "Haffin";
+     prod[0][0][0] = "Cola";
+     prod[0][0][1]= "Orange Juice";
+     prod[0][0][2]= "Lemonade";
+     prod[0][0][3]= "Green Tea";
+     prod[0][0][4]= "Black Coffee";
+     
+     prod[0][1][0]= "Popcorn";
+     prod[0][1][1]= "Trail Mix";
+     prod[0][1][2]= "Beef Jerky";
+     prod[0][1][3]= "Salted Nuts";
+     prod[0][1][4]= "Rice Cakes";
+     
+     prod[0][2][0]= "Cottage Cheese";
+     prod[0][2][1]= "Heavy Cream";
+     prod[0][2][2]= "Ice Cream";
+     prod[0][2][3]= "Parmesan Cheese";
+     prod[0][2][4]=	"Eggnog";		
+     
+     prod[0][3][0]= "Apples";
+     prod[0][3][1]= "Bananas";
+     prod[0][3][2]= "Carrots";
+     prod[0][3][3]= "Potatoes";
+     prod[0][3][4]=	"Onions";	
         
-        System.out.println("My 3rd first cousin is: "+firstcousins[1][0]);
-        System.out.println("My 5th first cousin is: "+firstcousins[2][0]);
+     prod[1][0][0] = "Cola";
+     prod[1][0][1]= "Orange Juice";
+     prod[1][0][2]= "Lemonade";
+     prod[1][0][3]= "Green Tea";
+     prod[1][0][4]= "Black Coffee";
+     
+     prod[1][1][0]= "Popcorn";
+     prod[1][1][1]= "Trail Mix";
+     prod[1][1][2]= "Beef Jerky";
+     prod[1][1][3]= "Salted Nuts";
+     prod[1][1][4]= "Rice Cakes";
+     
+     prod[1][2][0]= "Cottage Cheese";
+     prod[1][2][1]= "Heavy Cream";
+     prod[1][2][2]= "Ice Cream";
+     prod[1][2][3]= "Parmesan Cheese";
+     prod[1][2][4]=	"Eggnog";		
+     
+     prod[1][3][0]= "Apples";
+     prod[1][3][1]= "Bananas";
+     prod[1][3][2]= "Carrots";
+     prod[1][3][3]= "Potatoes";
+     prod[1][3][4]=	"Onions";	
         
-     String [] [] [] secondcousins = new String [5] [3] [2] ;      
- 
-         secondcousins[0][1][1] = "Jaasir";
-         secondcousins[0][2][0] = "Jaabir";
-         secondcousins[1][0][1] = "Ansar";
-         secondcousins[1][1][1] = "Shanuba";
-         secondcousins[1][2][0] = "Ramla";
-         secondcousins[2][0][1] = "Yunus";
-         secondcousins[3][1][0]= "Ilyas";
-         secondcousins[4][0][1] = "Jahiz";
-         secondcousins[4][2][0] = "Imaad";
-         
-         System.out.println("One of my second cousins is: "+secondcousins[1][1][1]);
 }}
