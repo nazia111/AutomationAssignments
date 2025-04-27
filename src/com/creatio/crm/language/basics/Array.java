@@ -1,9 +1,12 @@
 package com.creatio.crm.language.basics;
 
+//A supermarket offers products in two main categories: "Groceries" and "Electronics." 
+//Each category is further divided into four subcategories(beverages,snack,dairy,produce), 
+//with each subcategory containing five products. Can you store complete data in single Array?
+
 public class Array {
 	
 public static void main(String[] args) {
-		
 		
      String [][] [] prod = new String [2][4] [5] ;
 		
@@ -54,5 +57,8 @@ public static void main(String[] args) {
      prod[1][3][2]= "Carrots";
      prod[1][3][3]= "Potatoes";
      prod[1][3][4]=	"Onions";	
+     
+     System.out.println("Snack in Groceries: " + prod[0][1][3]); 
+     System.out.println("Produce in Electronics: " + prod[1][3][1]); 
         
 }}
